@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4F484F466DA8410227DD6B /* Pods_WBLumberjackHelperDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119DA248D2CDC3B0356AEEC6 /* Pods_WBLumberjackHelperDemoTests.framework */; };
+		253C9554C91F5C02260182EC /* Pods_WBLumberjackHelperDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6FC468996FB0CDDA1236E8 /* Pods_WBLumberjackHelperDemo.framework */; };
+		D07E6152215F6A450062C0F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D07E6151215F6A450062C0F5 /* AppDelegate.m */; };
+		D07E6155215F6A450062C0F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D07E6154215F6A450062C0F5 /* ViewController.m */; };
+		D07E6158215F6A450062C0F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07E6156215F6A450062C0F5 /* Main.storyboard */; };
+		D07E615A215F6A470062C0F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07E6159215F6A470062C0F5 /* Assets.xcassets */; };
+		D07E615D215F6A470062C0F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07E615B215F6A470062C0F5 /* LaunchScreen.storyboard */; };
+		D07E6160215F6A470062C0F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D07E615F215F6A470062C0F5 /* main.m */; };
+		D07E616A215F6A470062C0F5 /* WBLumberjackHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D07E6169215F6A470062C0F5 /* WBLumberjackHelperDemoTests.m */; };
+		D07E6175215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D07E6174215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.m */; };
+		D07E618B215F70A10062C0F5 /* WBLumberjackHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D07E6188215F70A10062C0F5 /* WBLumberjackHelper.m */; };
+		F7E740F7EB9832F3FC188768 /* Pods_WBLumberjackHelperDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF45F05FA4D810670D0B9CA7 /* Pods_WBLumberjackHelperDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D07E6166215F6A470062C0F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07E6145215F6A450062C0F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07E614C215F6A450062C0F5;
+			remoteInfo = WBLumberjackHelperDemo;
+		};
+		D07E6171215F6A470062C0F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07E6145215F6A450062C0F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07E614C215F6A450062C0F5;
+			remoteInfo = WBLumberjackHelperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B2E7F05DE99B12987FA5F6 /* Pods-WBLumberjackHelperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLumberjackHelperDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBLumberjackHelperDemo/Pods-WBLumberjackHelperDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		119DA248D2CDC3B0356AEEC6 /* Pods_WBLumberjackHelperDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBLumberjackHelperDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1569A834267396EA82D908F9 /* Pods-WBLumberjackHelperDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLumberjackHelperDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBLumberjackHelperDemoUITests/Pods-WBLumberjackHelperDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		987E955CD2581AB21B7F2EF3 /* Pods-WBLumberjackHelperDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLumberjackHelperDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBLumberjackHelperDemoUITests/Pods-WBLumberjackHelperDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2B451783EE72B7D8AF4CA06 /* Pods-WBLumberjackHelperDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLumberjackHelperDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBLumberjackHelperDemoTests/Pods-WBLumberjackHelperDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6FC468996FB0CDDA1236E8 /* Pods_WBLumberjackHelperDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBLumberjackHelperDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07E614D215F6A450062C0F5 /* WBLumberjackHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBLumberjackHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07E6150215F6A450062C0F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D07E6151215F6A450062C0F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D07E6153215F6A450062C0F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D07E6154215F6A450062C0F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D07E6157215F6A450062C0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D07E6159215F6A470062C0F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D07E615C215F6A470062C0F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D07E615E215F6A470062C0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07E615F215F6A470062C0F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D07E6165215F6A470062C0F5 /* WBLumberjackHelperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBLumberjackHelperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07E6169215F6A470062C0F5 /* WBLumberjackHelperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBLumberjackHelperDemoTests.m; sourceTree = "<group>"; };
+		D07E616B215F6A470062C0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07E6170215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBLumberjackHelperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07E6174215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBLumberjackHelperDemoUITests.m; sourceTree = "<group>"; };
+		D07E6176215F6A470062C0F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07E6188215F70A10062C0F5 /* WBLumberjackHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBLumberjackHelper.m; sourceTree = "<group>"; };
+		D07E6189215F70A10062C0F5 /* WBLumberjackHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBLumberjackHelper.h; sourceTree = "<group>"; };
+		D07E618A215F70A10062C0F5 /* WBLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBLumberjack.h; sourceTree = "<group>"; };
+		D2EDF8F74F1921879898154E /* Pods-WBLumberjackHelperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLumberjackHelperDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBLumberjackHelperDemo/Pods-WBLumberjackHelperDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F624A6B38D1A15AEC60A32B4 /* Pods-WBLumberjackHelperDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBLumberjackHelperDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBLumberjackHelperDemoTests/Pods-WBLumberjackHelperDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF45F05FA4D810670D0B9CA7 /* Pods_WBLumberjackHelperDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBLumberjackHelperDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D07E614A215F6A450062C0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C9554C91F5C02260182EC /* Pods_WBLumberjackHelperDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07E6162215F6A470062C0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4F484F466DA8410227DD6B /* Pods_WBLumberjackHelperDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07E616D215F6A470062C0F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E740F7EB9832F3FC188768 /* Pods_WBLumberjackHelperDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE7598D0274F45E604E18A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05B2E7F05DE99B12987FA5F6 /* Pods-WBLumberjackHelperDemo.debug.xcconfig */,
+				D2EDF8F74F1921879898154E /* Pods-WBLumberjackHelperDemo.release.xcconfig */,
+				A2B451783EE72B7D8AF4CA06 /* Pods-WBLumberjackHelperDemoTests.debug.xcconfig */,
+				F624A6B38D1A15AEC60A32B4 /* Pods-WBLumberjackHelperDemoTests.release.xcconfig */,
+				987E955CD2581AB21B7F2EF3 /* Pods-WBLumberjackHelperDemoUITests.debug.xcconfig */,
+				1569A834267396EA82D908F9 /* Pods-WBLumberjackHelperDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C72C35BAC55DEDE584698FFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA6FC468996FB0CDDA1236E8 /* Pods_WBLumberjackHelperDemo.framework */,
+				119DA248D2CDC3B0356AEEC6 /* Pods_WBLumberjackHelperDemoTests.framework */,
+				FF45F05FA4D810670D0B9CA7 /* Pods_WBLumberjackHelperDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D07E6144215F6A450062C0F5 = {
+			isa = PBXGroup;
+			children = (
+				D07E614F215F6A450062C0F5 /* WBLumberjackHelperDemo */,
+				D07E6168215F6A470062C0F5 /* WBLumberjackHelperDemoTests */,
+				D07E6173215F6A470062C0F5 /* WBLumberjackHelperDemoUITests */,
+				D07E614E215F6A450062C0F5 /* Products */,
+				1EE7598D0274F45E604E18A2 /* Pods */,
+				C72C35BAC55DEDE584698FFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D07E614E215F6A450062C0F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D07E614D215F6A450062C0F5 /* WBLumberjackHelperDemo.app */,
+				D07E6165215F6A470062C0F5 /* WBLumberjackHelperDemoTests.xctest */,
+				D07E6170215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D07E614F215F6A450062C0F5 /* WBLumberjackHelperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D07E6187215F70A10062C0F5 /* WBLumberjack */,
+				D07E6150215F6A450062C0F5 /* AppDelegate.h */,
+				D07E6151215F6A450062C0F5 /* AppDelegate.m */,
+				D07E6153215F6A450062C0F5 /* ViewController.h */,
+				D07E6154215F6A450062C0F5 /* ViewController.m */,
+				D07E6156215F6A450062C0F5 /* Main.storyboard */,
+				D07E6159215F6A470062C0F5 /* Assets.xcassets */,
+				D07E615B215F6A470062C0F5 /* LaunchScreen.storyboard */,
+				D07E615E215F6A470062C0F5 /* Info.plist */,
+				D07E615F215F6A470062C0F5 /* main.m */,
+			);
+			path = WBLumberjackHelperDemo;
+			sourceTree = "<group>";
+		};
+		D07E6168215F6A470062C0F5 /* WBLumberjackHelperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D07E6169215F6A470062C0F5 /* WBLumberjackHelperDemoTests.m */,
+				D07E616B215F6A470062C0F5 /* Info.plist */,
+			);
+			path = WBLumberjackHelperDemoTests;
+			sourceTree = "<group>";
+		};
+		D07E6173215F6A470062C0F5 /* WBLumberjackHelperDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D07E6174215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.m */,
+				D07E6176215F6A470062C0F5 /* Info.plist */,
+			);
+			path = WBLumberjackHelperDemoUITests;
+			sourceTree = "<group>";
+		};
+		D07E6187215F70A10062C0F5 /* WBLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				D07E6189215F70A10062C0F5 /* WBLumberjackHelper.h */,
+				D07E6188215F70A10062C0F5 /* WBLumberjackHelper.m */,
+				D07E618A215F70A10062C0F5 /* WBLumberjack.h */,
+			);
+			path = WBLumberjack;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D07E614C215F6A450062C0F5 /* WBLumberjackHelperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07E6179215F6A470062C0F5 /* Build configuration list for PBXNativeTarget "WBLumberjackHelperDemo" */;
+			buildPhases = (
+				AF24A2B41726B7B77B38047F /* [CP] Check Pods Manifest.lock */,
+				D07E6149215F6A450062C0F5 /* Sources */,
+				D07E614A215F6A450062C0F5 /* Frameworks */,
+				D07E614B215F6A450062C0F5 /* Resources */,
+				78474CB54B9E18D59759F488 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBLumberjackHelperDemo;
+			productName = WBLumberjackHelperDemo;
+			productReference = D07E614D215F6A450062C0F5 /* WBLumberjackHelperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D07E6164215F6A470062C0F5 /* WBLumberjackHelperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07E617C215F6A470062C0F5 /* Build configuration list for PBXNativeTarget "WBLumberjackHelperDemoTests" */;
+			buildPhases = (
+				23D3B3600800B2AB9281CA51 /* [CP] Check Pods Manifest.lock */,
+				D07E6161215F6A470062C0F5 /* Sources */,
+				D07E6162215F6A470062C0F5 /* Frameworks */,
+				D07E6163215F6A470062C0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07E6167215F6A470062C0F5 /* PBXTargetDependency */,
+			);
+			name = WBLumberjackHelperDemoTests;
+			productName = WBLumberjackHelperDemoTests;
+			productReference = D07E6165215F6A470062C0F5 /* WBLumberjackHelperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D07E616F215F6A470062C0F5 /* WBLumberjackHelperDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07E617F215F6A470062C0F5 /* Build configuration list for PBXNativeTarget "WBLumberjackHelperDemoUITests" */;
+			buildPhases = (
+				F5CE8C8CD011BB2A4AB40FA7 /* [CP] Check Pods Manifest.lock */,
+				D07E616C215F6A470062C0F5 /* Sources */,
+				D07E616D215F6A470062C0F5 /* Frameworks */,
+				D07E616E215F6A470062C0F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07E6172215F6A470062C0F5 /* PBXTargetDependency */,
+			);
+			name = WBLumberjackHelperDemoUITests;
+			productName = WBLumberjackHelperDemoUITests;
+			productReference = D07E6170215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D07E6145215F6A450062C0F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wenbo;
+				TargetAttributes = {
+					D07E614C215F6A450062C0F5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D07E6164215F6A470062C0F5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D07E614C215F6A450062C0F5;
+					};
+					D07E616F215F6A470062C0F5 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D07E614C215F6A450062C0F5;
+					};
+				};
+			};
+			buildConfigurationList = D07E6148215F6A450062C0F5 /* Build configuration list for PBXProject "WBLumberjackHelperDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D07E6144215F6A450062C0F5;
+			productRefGroup = D07E614E215F6A450062C0F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D07E614C215F6A450062C0F5 /* WBLumberjackHelperDemo */,
+				D07E6164215F6A470062C0F5 /* WBLumberjackHelperDemoTests */,
+				D07E616F215F6A470062C0F5 /* WBLumberjackHelperDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D07E614B215F6A450062C0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07E615D215F6A470062C0F5 /* LaunchScreen.storyboard in Resources */,
+				D07E615A215F6A470062C0F5 /* Assets.xcassets in Resources */,
+				D07E6158215F6A450062C0F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07E6163215F6A470062C0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07E616E215F6A470062C0F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23D3B3600800B2AB9281CA51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBLumberjackHelperDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78474CB54B9E18D59759F488 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WBLumberjackHelperDemo/Pods-WBLumberjackHelperDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WBLumberjackHelperDemo/Pods-WBLumberjackHelperDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF24A2B41726B7B77B38047F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBLumberjackHelperDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5CE8C8CD011BB2A4AB40FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WBLumberjackHelperDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D07E6149215F6A450062C0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07E618B215F70A10062C0F5 /* WBLumberjackHelper.m in Sources */,
+				D07E6155215F6A450062C0F5 /* ViewController.m in Sources */,
+				D07E6160215F6A470062C0F5 /* main.m in Sources */,
+				D07E6152215F6A450062C0F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07E6161215F6A470062C0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07E616A215F6A470062C0F5 /* WBLumberjackHelperDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07E616C215F6A470062C0F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07E6175215F6A470062C0F5 /* WBLumberjackHelperDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D07E6167215F6A470062C0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D07E614C215F6A450062C0F5 /* WBLumberjackHelperDemo */;
+			targetProxy = D07E6166215F6A470062C0F5 /* PBXContainerItemProxy */;
+		};
+		D07E6172215F6A470062C0F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D07E614C215F6A450062C0F5 /* WBLumberjackHelperDemo */;
+			targetProxy = D07E6171215F6A470062C0F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D07E6156215F6A450062C0F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07E6157215F6A450062C0F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D07E615B215F6A470062C0F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07E615C215F6A470062C0F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D07E6177215F6A470062C0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D07E6178215F6A470062C0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D07E617A215F6A470062C0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B2E7F05DE99B12987FA5F6 /* Pods-WBLumberjackHelperDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBLumberjackHelperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBLumberjackHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D07E617B215F6A470062C0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EDF8F74F1921879898154E /* Pods-WBLumberjackHelperDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBLumberjackHelperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBLumberjackHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D07E617D215F6A470062C0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2B451783EE72B7D8AF4CA06 /* Pods-WBLumberjackHelperDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBLumberjackHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBLumberjackHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBLumberjackHelperDemo.app/WBLumberjackHelperDemo";
+			};
+			name = Debug;
+		};
+		D07E617E215F6A470062C0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F624A6B38D1A15AEC60A32B4 /* Pods-WBLumberjackHelperDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBLumberjackHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBLumberjackHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBLumberjackHelperDemo.app/WBLumberjackHelperDemo";
+			};
+			name = Release;
+		};
+		D07E6180215F6A470062C0F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987E955CD2581AB21B7F2EF3 /* Pods-WBLumberjackHelperDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBLumberjackHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBLumberjackHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBLumberjackHelperDemo;
+			};
+			name = Debug;
+		};
+		D07E6181215F6A470062C0F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1569A834267396EA82D908F9 /* Pods-WBLumberjackHelperDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBLumberjackHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBLumberjackHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBLumberjackHelperDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D07E6148215F6A450062C0F5 /* Build configuration list for PBXProject "WBLumberjackHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07E6177215F6A470062C0F5 /* Debug */,
+				D07E6178215F6A470062C0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07E6179215F6A470062C0F5 /* Build configuration list for PBXNativeTarget "WBLumberjackHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07E617A215F6A470062C0F5 /* Debug */,
+				D07E617B215F6A470062C0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07E617C215F6A470062C0F5 /* Build configuration list for PBXNativeTarget "WBLumberjackHelperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07E617D215F6A470062C0F5 /* Debug */,
+				D07E617E215F6A470062C0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07E617F215F6A470062C0F5 /* Build configuration list for PBXNativeTarget "WBLumberjackHelperDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07E6180215F6A470062C0F5 /* Debug */,
+				D07E6181215F6A470062C0F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D07E6145215F6A450062C0F5 /* Project object */;
+}

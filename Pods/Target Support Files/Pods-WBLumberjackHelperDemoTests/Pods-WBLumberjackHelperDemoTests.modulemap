@@ -1,0 +1,6 @@
+framework module Pods_WBLumberjackHelperDemoTests {
+  umbrella header "Pods-WBLumberjackHelperDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
